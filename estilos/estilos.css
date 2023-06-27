@@ -1,0 +1,167 @@
+body {
+    background-color: #000;
+    padding: 10px;
+}
+
+header {
+    background-color: rgb(142, 111, 255);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    width: 95%;
+    display: flex;
+    background-color: rgb(70, 51, 242);
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 10px;
+}
+
+header nav div {
+    background-color: orange;
+    height: 2vh;
+    width: 20%;
+}
+
+header nav div:nth-child(2) {
+    width: 50%;
+}
+
+main {
+    background-color: rgb(142, 111, 255);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+main section {
+    width: 95%;
+    height: 48vh;
+    background-color: rgb(3, 110, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main section div {
+    width: 50%;
+    height: 30%;
+    background-color: rgb(220, 141, 153);
+}
+
+footer {
+    width: 100%;
+    height: 23vh;
+    background-color: rgb(31, 11, 11);
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .contenedor-footer{
+    width: 58%;
+    height: 19vh;
+    background-color: rgb(162, 47, 6);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .contenedor-footer .caja1 {
+    width: 90%;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contenedor-footer .caja1 .contenedor1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contenedor-footer .caja1 .contenedor1 div{
+    width: 45%;
+    height: 20px;
+    background-color: orange;
+}
+
+footer .contenedor-footer .caja1 .contenedor1 div:nth-child(1){
+    margin-bottom: 40px;
+}
+
+footer .contenedor-footer .caja1 .contenedor2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contenedor-footer .caja1 .contenedor2 div{
+    width: 45%;
+    height: 20px;
+    background-color: orange;
+}
+
+footer .contenedor-footer .caja1 .contenedor2 div:nth-child(1){
+    margin-bottom: 40px;
+}
+
+footer .caja1 .contenedor3{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .caja1 .contenedor3 div{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(106, 87, 52);
+}
+
+footer .caja2{
+    display: flex;
+    width: 33%;
+    height: 19vh;
+    background-color: rgb(149, 167, 182);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+footer  .caja2 div{
+    width: 90%;
+    height: 20px;
+    background-color: rgb(122, 219, 219);
+    margin: 10px 0px;
+}
+
+footer .seccionFinal {
+    width: 95%;
+    height: 20vh;
+}
+
+ .seccionFinal div{
+    width: 100%;
+    height: 70px;
+    background-color: darkgreen;
+    margin: auto;
+    margin-top: 20px; 
+}
+
+
+
